@@ -33,3 +33,55 @@ body {
   right: 20px;
   font-size: 80px;
 }
+.spade:before {
+  content: "\2660";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.spade:after {
+  content: "\2660";
+  position: absolute;
+  right: 1px;
+  bottom: -5px;
+}
+.club:before {
+  content: "\2663";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.club:after {
+  content: "\2663";
+  position: absolute;
+  right: 1px;
+  bottom: -1px;
+}
+.heart:before {
+  content: "\2665";
+  color: red;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.heart:after {
+  content: "\2665";
+  color: red;
+  position: absolute;
+  right: 1px;
+  bottom: -1px;
+}
+.diamond:before {
+  content: "\2666";
+  color: red;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.diamond:after {
+  content: "\2666";
+  color: red;
+  position: absolute;
+  right: 1px;
+  bottom: -1px;
+}
